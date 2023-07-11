@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      "akaneko@5.2.2",
+      "/home/runner/neemei"
+    ]
+  ],
+  "_from": "akaneko@5.2.2",
+  "_id": "akaneko@5.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-4yoRD8ApSKqJlyA22km5d7t2dPJxGq2/O0ae2LQPRAgCyLhCGJkk82zH+OpYnkH6L5/2aoZ9buklp+g1KG30Yw==",
+  "_location": "/akaneko",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "akaneko@5.2.2",
+    "name": "akaneko",
+    "escapedName": "akaneko",
+    "rawSpec": "5.2.2",
+    "saveSpec": null,
+    "fetchSpec": "5.2.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/akaneko/-/akaneko-5.2.2.tgz",
+  "_spec": "5.2.2",
+  "_where": "/home/runner/neemei",
+  "author": {
+    "name": "ryumin"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "description": "An Anime/Hentai Image API which simplifies how you fetch random images for you! Reliable, and very pleasure friendly!",
+  "keywords": [
+    "nsfw",
+    "hentai",
+    "anime",
+    "images",
+    "wallpaper",
+    "discord",
+    "neko",
+    "cute",
+    "as",
+    "fubuki",
+    "api"
+  ],
+  "license": "MIT",
+  "main": "fubuki.js",
+  "name": "akaneko",
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://gitlab.com/weeb-squad/akaneko"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "./typings/index.d.ts",
+  "version": "5.2.2"
+}
