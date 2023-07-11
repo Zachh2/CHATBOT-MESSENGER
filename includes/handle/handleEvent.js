@@ -1,5 +1,5 @@
 module.exports = function ({api ,models, Users, Threads, Currencies }) {
-    const logger = require("../../utils/log.js");
+    const logger = require("../../logger/log.js");
    	const moment = require("moment");
 
     return function ({ event }) {

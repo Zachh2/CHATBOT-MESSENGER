@@ -10,6 +10,12 @@
     Project Bot remade by zach. You can update the version using Node update in Console
     <br />
     <br />
+
+## Update Version (coming soon)
+ 
+ ```sh
+node update
+```
   <!-- CONTACT -->
 
 ## Contact

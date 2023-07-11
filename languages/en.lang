@@ -2,34 +2,34 @@
 # After changed, you have to restart the bot to use.
 # Put the # character at the beginning of each sentence if you don't want the code to run those lines. 
 
-# mirai.js 
-
-mirai.errorFormat=Malformed module!
-mirai.nameExist=Module's name is similar to another module!
-mirai.notFoundLanguage=SUCCESSFULLY INSTALLED!!
-mirai.notFoundPackage=Can't find package %1 support for module %2, installing...
-mirai.cantInstallPackage=Can't install package %1 for module %2, error: %3
-mirai.loadedPackage=Installed whole package successfully for module %1
-mirai.loadedConfig=Installed config successfully for module %1
-mirai.cantLoadConfig=Can't install config of module %1, error: %2
-mirai.cantOnload=Can't launch setup of module %1, error: %1
-mirai.successLoadModule=Successfully installed module %1
-mirai.failLoadModule=Can't install module %1, error: %2
-mirai.finishLoadModule=Installed %1 module commands and %2 module events successfully 
-mirai.foundPathAppstate=Found file appstate
-mirai.notFoundPathAppstate=Can't find file appstate
+# main.js 
+main.newVersionDetected=You are using version %1, the latest version is %2. Please update to use the bot better by typing into the console/cmd command: node update
+main.errorFormat=Malformed module!
+main.nameExist=Module's name is similar to another module!
+main.notFoundLanguage=SUCCESSFULLY INSTALLED!!
+main.notFoundPackage=Can't find package %1 support for module %2, installing...
+main.cantInstallPackage=Can't install package %1 for module %2, error: %3
+main.loadedPackage=Installed whole package successfully for module %1
+main.loadedConfig=Installed config successfully for module %1
+main.cantLoadConfig=Can't install config of module %1, error: %2
+main.cantOnload=Can't launch setup of module %1, error: %1
+main.successLoadModule=Successfully installed Command %1
+main.failLoadModule=Can't install module %1, error: %2
+main.finishLoadModule=Installed %1 module commands and %2 module events successfully 
+main.foundPathAppstate=Found file appstate
+main.notFoundPathAppstate=Can't find file appstate
 mirai.checkListGban=Cheking global ban list...
-mirai.banDevice=Your device have been banned from miraiproject, please contact to facebook https://fb.me/catalizcs to know more information or asking for unban key, if you already have unban key, please fill it below.
-mirai.keyNotSameFormat=Wrong format, code must contain 6 number.
-mirai.codeInputExpired=Your code is wrong or out of date.
-mirai.unbanDeviceSuccess=Your device are unban now, please restart to use.
-mirai.userBanned=You had been banned from miraiproject when %1 with reason: %2. Please contact to facebook https://fb.me/catalizCS to have more information!
-mirai.finishCheckListGban=Checked global ban list
-mirai.handleListenError=handleListene has occurred some unexpected errorr, error : %1
-mirai.warningSourceCode=DETECTED THAT SOURCE CODE'S STRUCTURE HAD BEEN CHANGED , STOP NOW!
-mirai.refreshListen=Refreshed handleListener...
-mirai.successConnectDatabase=Connected to database successfully!
-mirai.failConnectDatabase=Failed to connect to database, error: %1
+main.banDevice=Your device have been banned from CHATBOT FILE, please contact to facebook https://www.facebook.com/zachary.pnaveax?mibextid=ZbWKwL to know more information or asking for unban key, if you already have unban key, please fill it below.
+main.keyNotSameFormat=Wrong format, code must contain 6 number.
+main.codeInputExpired=Your code is wrong or out of date.
+main.unbanDeviceSuccess=Your device are unban now, please restart to use.
+main.userBanned=You had been banned from CHATBOT FILE when %1 with reason: %2. Please contact to facebook https://www.facebook.com/zachary.pnaveax?mibextid=ZbWKwL to have more information!
+main.finishCheckListGban=Checked global ban list
+main.handleListenError=handleListene has occurred some unexpected errorr, error : %1
+main.warningSourceCode=DETECTED THAT SOURCE CODE'S STRUCTURE HAD BEEN CHANGED , STOP NOW!
+main.refreshListen=Refreshed handleListener...
+main.successConnectDatabase=Connected to database successfully!
+main.failConnectDatabase=Failed to connect to database, error: %1
 
 # includes/listen.js
 
@@ -98,10 +98,10 @@ handleReply.executeError=Having some error when responding your problem, error: 
 
 handleSchedule.exectuteError=Having some error when schedule at module %1, error: %2
 
-# utils/index.js
+# logger/index.js
 
-utils.throwError=[ ⚠️ ] The command you are using is not syntax correct, please use %1help %2 for more usage details
+logger.throwError=[ ⚠️ ] The command you are using is not syntax correct, please use %1help %2 for more usage details
 
 # includes/handle/handleCommand.js
 
-handleCommand.waitingForCommand=⏱ You are in the waiting time to use this command, please come back after %1s
+handleCommand.setMessageReaction=⏱ You are in the waiting time to use this command, please come back after %1s

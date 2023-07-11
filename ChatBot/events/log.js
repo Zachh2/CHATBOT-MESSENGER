@@ -10,7 +10,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function({ api, event, Threads }) {
-    const logger = require("../../utils/log");
+    const logger = require("../../logger/log");
     if (!global.configModule[this.config.name].enable) return;
   let { threadName, participantIDs, imageSrc } = await api.getThreadInfo(event.threadID);
   const moment = require('moment-timezone');

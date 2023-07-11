@@ -1,6 +1,6 @@
 //Mod by Nhật Tân
 module.exports = function ({ Users, Threads, Currencies }) {
-    const logger =require("../../utils/log.js");
+    const logger =require("../../logger/log.js");
     return async function ({ event }) {
         const { allUserID, allCurrenciesID, allThreadID, userName, threadInfo } = global.data; 
         const { autoCreateDB } = global.config;

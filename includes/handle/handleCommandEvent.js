@@ -1,5 +1,5 @@
 module.exports = function ({ api, models, Users, Threads, Currencies }) {
-    const logger = require("../../utils/log.js")
+    const logger = require("../../logger/log.js")
     return function ({ event }) {
         const { allowInbox } = global.config;
         const { userBanned, threadBanned } = global.data;
