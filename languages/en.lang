@@ -6,14 +6,14 @@
 main.newVersionDetected=You are using version %1, the latest version is %2. Please update to use the bot better by typing into the console/cmd command: node update
 main.errorFormat=Malformed module!
 main.nameExist=Module's name is similar to another module!
-main.notFoundLanguage=SUCCESSFULLY INSTALLED!!
+main.notFoundLanguage=loaded
 main.notFoundPackage=Can't find package %1 support for module %2, installing...
 main.cantInstallPackage=Can't install package %1 for module %2, error: %3
 main.loadedPackage=Installed whole package successfully for module %1
 main.loadedConfig=Installed config successfully for module %1
 main.cantLoadConfig=Can't install config of module %1, error: %2
 main.cantOnload=Can't launch setup of module %1, error: %1
-main.successLoadModule=Successfully installed Command %1
+main.successLoadModule=loaded Command %1
 main.failLoadModule=Can't install module %1, error: %2
 main.finishLoadModule=Installed %1 module commands and %2 module events successfully 
 main.foundPathAppstate=Found file appstate
