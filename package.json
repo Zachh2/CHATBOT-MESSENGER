@@ -1,8 +1,8 @@
 {
-	"name": "zach",
-	"version": "3.2.0",
+	"name": "CHATBOT",
+	"version": "2.2.11",
 	"description": "remade by zach",
-	"main": "zach.js",
+	"main": "main.js",
 	"scripts": {
 		"start": "node index.js",
 		"login": "node login",
