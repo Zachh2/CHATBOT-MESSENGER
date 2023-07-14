@@ -11,7 +11,7 @@
     <br />
     <br />
 
-## Update Version
+## Update Version (coming soon)
  
  ```sh
 node update
