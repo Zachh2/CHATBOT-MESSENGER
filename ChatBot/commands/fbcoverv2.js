@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Joshua Sy",
 	description: "better version of fbcoverv2 old",
-	commandCategory: "Image",
+	commandCategory: "Cover",
 	usages: "Just follow the step",
 	cooldowns: 5
   };

@@ -1,5 +1,5 @@
 module.exports.config={
-name:"prefix1",
+name:"prefix",
 version:"1.0.0",
   hasPermssion:0,
   credits:"ManhG",

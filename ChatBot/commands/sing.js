@@ -5,7 +5,7 @@ const config = {
     credits: "Yan Maglinte", //TRANSLATED TO ENGLISH BY YAN MAGLINTE
     description: "Plays music from YouTube",
     usePrefix: true,
-    commandCategory: "entertainment",
+    commandCategory: "music",
     usages: "[searchMusic]",
     cooldowns: 0
 };

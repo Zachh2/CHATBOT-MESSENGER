@@ -4,7 +4,7 @@ version: "1.0.0",
 hasPermssion: 0,
 credits: "Joshua Sy",
 description: "Create facebook service style cover photo",
-commandCategory: "game",
+commandCategory: "Cover",
 usages: "Create facebook service style cover photo",
 cooldowns: 0,
 dependencies: {

@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "Mirai Team (Modified by Yan Maglinte)",
   description: "Text translation",
-  commandCategory: "media",
+  commandCategory: "utilities",
   usages: `${global.config.PREFIX}trans fr Hello, how are you?`,
   cooldowns: 5,
   dependencies: {

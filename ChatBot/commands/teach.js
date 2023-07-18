@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "KENLIEPLAYS",
     description: "Teach to sim",
-    commandCategory: "sim",
+    commandCategory: "fun",
     usages: "[ask] | [answer]",
     cooldowns: 2,
 };
