@@ -24,7 +24,7 @@ module.exports.run = async function({ api, event, args, Currencies }) {
         win = true;
     }
     else if (number[0] == number[1] || number[0] == number[2] || number[0] == number[3] || number[1] == number[2] || number[1] == number[3] || number[2] == number[3]) {
-        moneyBet *= 0.2;
+        moneyBet *= 2;
         win = true;
     }
     switch (win) {
