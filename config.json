@@ -7,7 +7,7 @@
     "eventDisabled": [],
     "OWNER": "NAME MO",
     "MADE": "",
-    "version": "2.2.13",
+    "version": "2.2.14",
     "BOTNAME": "NAME NG BOT MO",
     "PREFIX": "PREIFX MO KUNG PANO MO TATAWAGIN",
     "ADMINBOT": [
@@ -35,5 +35,10 @@
     "help": {
         "autoUnsend": "",
         "delayUnsend": 20
+    },
+    "adminNoti": {
+        "autoUnsend": true,
+        "sendNoti": true,
+        "timeToUnsend": 10
     }
 }
