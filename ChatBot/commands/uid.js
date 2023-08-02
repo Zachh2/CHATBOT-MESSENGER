@@ -2,17 +2,33 @@ module.exports.config = {
 	name: "uid",
 	version: "1.0.0",
 	hasPermssion: 0,
-	credits: "Joshua Sy",
-	description: "Get User ID.",
-  usages: "reply/mention/args",
-  commandCategory: "other",
-	cooldowns: 2
+	credits: "?",
+	description: "user facebookID",
+  usePrefix: true,
+	commandCategory: "other",
+	cooldowns: 0
 };
 
-module.exports.run = function({ api, event, args, Users  }) {
-  let {threadID, senderID, messageID} = event;
-         if (!args[0]) { var uid = senderID}
-  if(event.type == "message_reply") { uid = event.messageReply.senderID }
-  if (args.join().indexOf('@') !== -1){ var uid = Object.keys(event.mentions) } 
-	return api.sendMessage(uid, threadID, messageID);
-}
+module.exports.run = async function ({ api, event, args }) {
+	const axios = global.nodemodule['axios'];
+	
+	if (event.type === "message_reply") {
+		const uid = event.messageReply.senderID;
+		return api.sendMessage(`${uid}`, event.threadID, event.messageID);
+	}
+	
+	if (!args[0]) {
+		return api.sendMessage(`${event.senderID}`, event.threadID, event.messageID);
+	} else {
+		if (args[0].indexOf(".com/") !== -1) {
+			const res_ID = await axios.get(`https://api.leanhtruong.net/uid.php?api_key=LEANHTRUONG=ENYP8ER5U1pBpfib0yxXdjjU3JhC2w2JTCFUH4mo3ojst9BnoYVtSmlhI4aexzxPVMuyRVXKIirBt2gQSBMnKm3yMoblevmGB9hd=APIKEY=PLANFREE&url=${args[0]}`);
+			return api.sendMessage(`${res_ID.data.uid}`, event.threadID, event.messageID);
+		} else {
+			for (var i = 0; i < Object.keys(event.mentions).length; i++) {
+				api.sendMessage(`${Object.values(event.mentions)[i].replace('@', '')}: ${Object.keys(event.mentions)[i]}`, event.threadID);
+			}
+			return;
+		}
+	}
+};
+                        
